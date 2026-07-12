@@ -1,4 +1,6 @@
 # Multimodal AI Diagnostic Dashboard (Nutritec AI Integration Concept)
+https://nutritec-shap-dashboard.streamlit.app/
+
 Nutritec AI relies on a saliva test strip that likely changes color based on mammaglobin concentration. 
 This project is a streamlit web app that uses the device camera to read a simulated physical test strip 
 (Computer Vison), predicts the cancer risk (Machine Learning), explains the math (SHAP) and generates a human-readable 
@@ -31,19 +33,19 @@ used to synthesize mock data. I intentionally created overlapping standard devia
 (Age, BMI) rather than just memorizing a threshold.
 
 ## Setup & Installation
-Clone the repository
-'''
+- Clone the repository
+```
 git clone https://github.com/daniellaeme/nutritec-shap-dashboard.git
-'''
-Install the required packages
-'''
+```
+- Install the required packages
+```
 pip install -r requirements.txt
-'''
-Create a .streamlit/secrets.toml
-Run the streamlit app
-'''
+```
+- Create a .streamlit/secrets.toml
+- Run the streamlit app
+```
 streamlit run app.py
-'''
+```
 
 ### Future Scalability
 - Swap Streamlit UI for e.g. React.
