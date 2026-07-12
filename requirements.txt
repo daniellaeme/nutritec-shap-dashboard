@@ -1,0 +1,9 @@
+numpy 
+pandas 
+opencv-python-headless 
+matplotlib 
+scikit-learn 
+joblib 
+shap 
+google-genai 
+streamlit
